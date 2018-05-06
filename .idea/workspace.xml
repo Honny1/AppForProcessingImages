@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9af0a2b1-57c6-4594-9baf-85621165ca68" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/renameImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileProcessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RenameImages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DSC_0201.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DSC_0202.JPG" beforeDir="false" />
@@ -11,7 +12,8 @@
       <change beforePath="$PROJECT_DIR$/DSC_0204.JPG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Test 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/list_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotateFoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/rotateFoto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readMetaData.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMetaData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rotateFoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageProcessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,13 +28,13 @@
       <content type="file-editors">
         <state>
           <leaf>
-            <file leaf-file-name="rotateFoto.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/rotateFoto.py">
+            <file leaf-file-name="ImageProcessing.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="816">
-                    <caret line="48" column="32" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="32" />
+                  <state relative-caret-position="357">
+                    <caret line="21" selection-start-line="21" selection-end-line="21" />
                     <folding>
-                      <element signature="e#0#9#0" expanded="true" />
+                      <element signature="e#0#21#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -45,14 +47,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="renameImages.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/renameImages.py">
+      <file leaf-file-name="RenameImages.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RenameImages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="153">
+              <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileProcessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileProcessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -77,12 +88,16 @@
         <option value="$PROJECT_DIR$/readMetaData.py" />
         <option value="$PROJECT_DIR$/rotateFoto.py" />
         <option value="$PROJECT_DIR$/renameImages.py" />
+        <option value="$PROJECT_DIR$/FileListProcessing.py" />
+        <option value="$PROJECT_DIR$/FileProcessing.py" />
+        <option value="$PROJECT_DIR$/ImageProcessing.py" />
+        <option value="$PROJECT_DIR$/RenameImages.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="577" />
-    <option name="y" value="277" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="992" />
+    <option name="y" value="347" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
@@ -153,7 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readMetaData.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\GODv2\Desktop\rotateFoto\ReadMetaData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +186,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/renameImages.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\GODv2\Desktop\rotateFoto\RenameImages.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +204,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rotateFoto.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\GODv2\Desktop\rotateFoto\ImageProcessing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,16 +259,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08587988" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50263435" side_tool="true" visible="true" weight="0.4446565" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49736565" visible="true" weight="0.4446565" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50316125" side_tool="true" visible="true" weight="0.32919848" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49736565" weight="0.4446565" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49789253" weight="0.32919848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49736565" weight="0.32919848" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49683878" visible="true" weight="0.32919848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -269,17 +283,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rotateFoto.py">
+    <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readMetaData.py">
+    <entry file="file://$PROJECT_DIR$/ReadMetaData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
@@ -289,14 +303,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotateFoto.py">
+    <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readMetaData.py">
+    <entry file="file://$PROJECT_DIR$/ReadMetaData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
@@ -306,28 +320,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotateFoto.py">
+    <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readMetaData.py">
+    <entry file="file://$PROJECT_DIR$/ReadMetaData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotateFoto.py">
+    <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readMetaData.py">
+    <entry file="file://$PROJECT_DIR$/ReadMetaData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
@@ -341,7 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readMetaData.py">
+    <entry file="file://$PROJECT_DIR$/ReadMetaData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
@@ -365,23 +379,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotateFoto.py">
+    <entry file="file://$PROJECT_DIR$/list_file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/list_file.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renameImages.py">
+    <entry file="file://$PROJECT_DIR$/RenameImages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        <state relative-caret-position="153">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
