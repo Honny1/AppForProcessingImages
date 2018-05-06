@@ -1,0 +1,10 @@
+.idea
+DSC_0201.JPG
+DSC_0202.JPG
+DSC_0203.JPG
+DSC_0204.JPG
+list_file.txt
+readMetaData.py
+rotateFoto.py
+Test 2.py
+test.py
