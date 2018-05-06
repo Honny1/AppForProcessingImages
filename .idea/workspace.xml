@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af0a2b1-57c6-4594-9baf-85621165ca68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileProcessing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RenameImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CopyFilesFromSDCart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MakeDirectory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SortFilesToDirectory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSC_0201.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSC_0202.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSC_0203.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSC_0204.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileProcessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageProcessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RenameImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/RenameImages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/list_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/list_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readMetaData.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMetaData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rotateFoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageProcessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,47 +21,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="ImageProcessing.py" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="357">
-                    <caret line="21" selection-start-line="21" selection-end-line="21" />
-                    <folding>
-                      <element signature="e#0#21#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RenameImages.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RenameImages.py">
+      <file leaf-file-name="Start.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileProcessing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FileProcessing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -77,6 +44,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fileName = fileName[:-1]</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -89,17 +61,22 @@
         <option value="$PROJECT_DIR$/rotateFoto.py" />
         <option value="$PROJECT_DIR$/renameImages.py" />
         <option value="$PROJECT_DIR$/FileListProcessing.py" />
+        <option value="$PROJECT_DIR$/MakeDirectory.py" />
+        <option value="$PROJECT_DIR$/SortFilesToDirectoris.py" />
         <option value="$PROJECT_DIR$/FileProcessing.py" />
-        <option value="$PROJECT_DIR$/ImageProcessing.py" />
         <option value="$PROJECT_DIR$/RenameImages.py" />
+        <option value="$PROJECT_DIR$/SortFilesToDirectory.py" />
+        <option value="$PROJECT_DIR$/CopyFilesFromSDCart.py" />
+        <option value="$PROJECT_DIR$/ImageProcessing.py" />
+        <option value="$PROJECT_DIR$/Start.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="992" />
-    <option name="y" value="347" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1058" />
+    <option name="y" value="-224" />
+    <option name="width" value="1066" />
+    <option name="height" value="1666" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -137,9 +114,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.renameImages">
-    <configuration name="Test 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rotateFoto" />
+  <component name="RunManager" selected="Python.Start">
+    <configuration name="CopyFilesFromSDCart" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AppForProcessingImages" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -150,14 +127,50 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\GODv2\Desktop\rotateFoto\Test_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CopyFilesFromSDCart.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="SortFilesToDirectory" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AppForProcessingImages" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SortFilesToDirectory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Start" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AppForProcessingImages" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="readMetaData" type="PythonConfigurationType" factoryName="Python">
-      <module name="rotateFoto" />
+      <module name="AppForProcessingImages" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -175,7 +188,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="renameImages" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rotateFoto" />
+      <module name="AppForProcessingImages" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -193,7 +206,7 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <configuration name="rotateFoto" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rotateFoto" />
+      <module name="AppForProcessingImages" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -210,37 +223,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="rotateFoto" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\GODv2\Desktop\rotateFoto\Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.readMetaData" />
       <item itemvalue="Python.rotateFoto" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.Test 2" />
       <item itemvalue="Python.renameImages" />
+      <item itemvalue="Python.CopyFilesFromSDCart" />
+      <item itemvalue="Python.SortFilesToDirectory" />
+      <item itemvalue="Python.Start" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Start" />
+        <item itemvalue="Python.SortFilesToDirectory" />
+        <item itemvalue="Python.CopyFilesFromSDCart" />
         <item itemvalue="Python.renameImages" />
         <item itemvalue="Python.rotateFoto" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Test 2" />
       </list>
     </recent_temporary>
   </component>
@@ -259,16 +256,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08587988" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50316125" side_tool="true" visible="true" weight="0.32919848" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49736565" weight="0.4446565" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5036881" side_tool="true" weight="0.41221374" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4963119" visible="true" weight="0.41221374" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49789253" weight="0.32919848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49683878" visible="true" weight="0.32919848" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49683878" weight="0.32919848" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.39980915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -365,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -379,10 +370,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Test_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/list_file.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileProcessing.py">
+    <entry file="file://$PROJECT_DIR$/SortFilesToDirectory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MakeDirectory.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
@@ -391,20 +399,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageProcessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="442">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RenameImages.py">
+    <entry file="file://$PROJECT_DIR$/CopyFilesFromSDCart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileProcessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RenameImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

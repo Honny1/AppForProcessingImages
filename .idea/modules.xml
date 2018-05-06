@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/rotateFoto.iml" filepath="$PROJECT_DIR$/.idea/rotateFoto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AppForProcessingImages.iml" filepath="$PROJECT_DIR$/.idea/AppForProcessingImages.iml" />
     </modules>
   </component>
 </project>

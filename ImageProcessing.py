@@ -20,13 +20,13 @@ def rotateImage(fileName, angle):
     cv2.imwrite(fileName, new)
 
 
-def fixImage():
-    FileProcessing.getFileList()
+def fixImage(src):
+    FileProcessing.getFileList(src)
     file_list = open("list_file.txt", "r")
     for fileName in file_list:
         fileName = fileName[:-1]
-        if FileProcessing.rightFileType(FileProcessing.getFileType(fileName)):
-            img = pexif.JpegFile.fromFile(fileName)
+        if FileProcessing.rightJpgType(FileProcessing.getFileType(src,fileName)):
+            img = pexif.JpegFile.fromFile(src+"/"+fileName)
             try:
                 orientation = img.exif.primary.Orientation[0]
 
