@@ -8,6 +8,7 @@ sourceDirectory="D:/100D3300"
 nefDirectory=newDirectory+"/Nef"
 jpgDirectory=newDirectory+"/Jpg"
 
+print("0%")
 CopyFilesFromSDCart.copyFiles(sourceDirectory,newDirectory)
 print("20%")
 SortFilesToDirectory.sortFilesToDirectory(newDirectory)

@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af0a2b1-57c6-4594-9baf-85621165ca68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/CopyFilesFromSDCart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MakeDirectory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SortFilesToDirectory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileProcessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageProcessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RenameImages.py" beforeDir="false" afterPath="$PROJECT_DIR$/RenameImages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/list_file.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +16,8 @@
       <file leaf-file-name="Start.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -73,10 +63,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1058" />
-    <option name="y" value="-224" />
-    <option name="width" value="1066" />
-    <option name="height" value="1666" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1186" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -88,7 +78,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="rotateFoto" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AppForProcessingImages" type="b2602c69:ProjectViewProjectNode" />
               <item name="rotateFoto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -256,16 +246,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08587988" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5036881" side_tool="true" weight="0.41221374" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4963119" visible="true" weight="0.41221374" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4963119" weight="0.41221374" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49789253" weight="0.32919848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49683878" weight="0.32919848" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49683878" visible="true" weight="0.32919848" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49947312" weight="0.39980915" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -436,8 +425,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
