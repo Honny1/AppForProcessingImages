@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9af0a2b1-57c6-4594-9baf-85621165ca68" name="Default" comment="" />
+    <list default="true" id="9af0a2b1-57c6-4594-9baf-85621165ca68" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renameImages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSC_0201.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSC_0202.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSC_0203.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSC_0204.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/list_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rotateFoto.py" beforeDir="false" afterPath="$PROJECT_DIR$/rotateFoto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,13 +21,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="rotateFoto.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/rotateFoto.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="816">
+                    <caret line="48" column="32" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="32" />
+                    <folding>
+                      <element signature="e#0#9#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="rotateFoto.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rotateFoto.py">
+      <file leaf-file-name="renameImages.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/renameImages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-602">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="187">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -32,6 +66,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -39,15 +76,17 @@
         <option value="$PROJECT_DIR$/Test 2.py" />
         <option value="$PROJECT_DIR$/readMetaData.py" />
         <option value="$PROJECT_DIR$/rotateFoto.py" />
+        <option value="$PROJECT_DIR$/renameImages.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="559" />
-    <option name="y" value="443" />
+    <option name="x" value="577" />
+    <option name="y" value="277" />
     <option name="width" value="697" />
     <option name="height" value="745" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -83,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rotateFoto">
+  <component name="RunManager" selected="Python.renameImages">
     <configuration name="Test 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rotateFoto" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +135,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test 2.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\GODv2\Desktop\rotateFoto\Test_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,6 +154,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readMetaData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="renameImages" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rotateFoto" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/renameImages.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +207,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\GODv2\Desktop\rotateFoto\Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,9 +218,11 @@
       <item itemvalue="Python.rotateFoto" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.Test 2" />
+      <item itemvalue="Python.renameImages" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.renameImages" />
         <item itemvalue="Python.rotateFoto" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.Test 2" />
@@ -185,15 +244,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08587988" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50263435" side_tool="true" visible="true" weight="0.32919848" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49789253" weight="0.4446565" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50263435" side_tool="true" visible="true" weight="0.4446565" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49736565" visible="true" weight="0.4446565" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49789253" weight="0.32919848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49736565" visible="true" weight="0.32919848" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49736565" weight="0.32919848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -291,14 +351,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test 2.py">
+    <entry file="file://$PROJECT_DIR$/Test_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
@@ -307,8 +367,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rotateFoto.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-602">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="816">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list_file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renameImages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
