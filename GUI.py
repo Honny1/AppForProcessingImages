@@ -1,4 +1,5 @@
 from tkinter import *
+import Start
 
 
 def inicializaceOkna():
@@ -23,17 +24,22 @@ def obsahOkna():
     B1 = Button(okno, text="RUN", bg="yellow", command=run)
     B1.grid(row=3, column=0)
 
-    Ch1 = Checkbutton(okno, text="  Copy and Sort               ", variable=ch1)
+    Ch1 = Checkbutton(okno, text="  Copy                               ", variable=ch1)
     Ch1.grid(row=0, column=2)
 
-    Ch1 = Checkbutton(okno, text="  Fix (Only SD Cart)         ", variable=ch2)
-    Ch1.grid(row=2, column=2)
+    Ch2 = Checkbutton(okno, text="  Sort  (Jpg and Raw)       ", variable=ch2)
+    Ch2.grid(row=2, column=2)
 
-    Ch1 = Checkbutton(okno, text="  Rename RAW                ", variable=ch3)
-    Ch1.grid(row=3, column=2)
+    Ch3 = Checkbutton(okno, text="  Fix (Only SD Cart)          ", variable=ch3)
+    Ch3.grid(row=3, column=2)
 
-    Ch1 = Checkbutton(okno, text="  Rename JPG                  ", variable=ch4)
-    Ch1.grid(row=4, column=2)
+    Ch4 = Checkbutton(okno, text="  Rename RAW                 ", variable=ch4)
+    Ch4.grid(row=4, column=2)
+
+    Ch5 = Checkbutton(okno, text="  Rename JPG                   ", variable=ch5)
+    Ch5.grid(row=5, column=2)
+
+
 
 
 def zviditelneniOkna():
@@ -41,15 +47,24 @@ def zviditelneniOkna():
 
 
 def run():
-    copyAndSort = ch1.get()
-    fixImage = ch2.get()
-    renameRaw = ch3.get()
-    renameJpg = ch4.get()
+    copy = ch1.get()
+    sort = ch2.get()
+    fixImage = ch3.get()
+    renameRaw = ch4.get()
+    renameJpg = ch5.get()
 
     newDir = Dir.get()
     sourceDir = src.get()
 
-    print(copyAndSort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
+
+    print(copy, sort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
+    done=Start.start(copy, sort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
+
+    x = "PROCES DONE!!!"
+    L3 = Label(okno, text=x)
+    L3.grid(row=4, column=1)
+
+
 
 
 #  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -58,8 +73,12 @@ ch1 = IntVar()
 ch2 = IntVar()
 ch3 = IntVar()
 ch4 = IntVar()
+ch5 = IntVar()
 src = StringVar()
 Dir = StringVar()
+
+global done
+done=0
 
 inicializaceOkna()
 obsahOkna()

@@ -3,22 +3,49 @@ import ImageProcessing
 import RenameImages
 import SortFilesToDirectory
 
-newDirectory="C:/Hony"
-sourceDirectory="D:/100D3300"
-nefDirectory=newDirectory+"/Nef"
-jpgDirectory=newDirectory+"/Jpg"
+def start(copy, sort, fixImage, renameRaw, renameJpg,  newDirectory, sourceDirectory):
 
-print("0%")
-CopyFilesFromSDCart.copyFiles(sourceDirectory,newDirectory)
-print("20%")
-SortFilesToDirectory.sortFilesToDirectory(newDirectory)
-print("40%")
-RenameImages.renameJpgImages(jpgDirectory)
-print("60%")
-RenameImages.renameNefImages(nefDirectory)
-print("80%")
-ImageProcessing.fixImage(jpgDirectory)
-print("100%")
+    nefDirectory=newDirectory+"/Nef"
+    jpgDirectory=newDirectory+"/Jpg"
+    if copy == 0 and sort == 0 and renameJpg == 0 and renameRaw == 0 and fixImage == 0:
+        return "NothingIsSelected"
+    elif copy == 0 and sort == 0 and renameJpg == 0 and renameRaw == 0 and fixImage == 1:
+        ImageProcessing.fixImage(sourceDirectory)
+    elif copy == 0 and sort == 0 and renameJpg == 0 and renameRaw == 1 and fixImage == 0:
+    elif copy == 0 and sort == 0 and renameJpg == 0 and renameRaw == 1 and fixImage == 1:
+    elif copy == 0 and sort == 0 and renameJpg == 1 and renameRaw == 0 and fixImage == 0:
+    elif copy == 0 and sort == 0 and renameJpg == 1 and renameRaw == 0 and fixImage == 1:
+    elif copy == 0 and sort == 0 and renameJpg == 1 and renameRaw == 1 and fixImage == 0:
+    elif copy == 0 and sort == 0 and renameJpg == 1 and renameRaw == 1 and fixImage == 1:
+    elif copy == 0 and sort == 1 and renameJpg == 0 and renameRaw == 0 and fixImage == 0:
+    elif copy == 0 and sort == 1 and renameJpg == 0 and renameRaw == 0 and fixImage == 1:
+    elif copy == 0 and sort == 1 and renameJpg == 0 and renameRaw == 1 and fixImage == 0:
+    elif copy == 0 and sort == 1 and renameJpg == 0 and renameRaw == 1 and fixImage == 1:
+    elif copy == 0 and sort == 1 and renameJpg == 1 and renameRaw == 0 and fixImage == 0:
+    elif copy == 0 and sort == 1 and renameJpg == 1 and renameRaw == 0 and fixImage == 1:
+    elif copy == 0 and sort == 1 and renameJpg == 1 and renameRaw == 1 and fixImage == 0:
+    elif copy == 0 and sort == 1 and renameJpg == 1 and renameRaw == 1 and fixImage == 1:
+    elif copy == 1 and sort == 0 and renameJpg == 0 and renameRaw == 0 and fixImage == 0:
+    elif copy == 1 and sort == 0 and renameJpg == 0 and renameRaw == 0 and fixImage == 1:
+    elif copy == 1 and sort == 0 and renameJpg == 0 and renameRaw == 1 and fixImage == 0:
+    elif copy == 1 and sort == 0 and renameJpg == 0 and renameRaw == 1 and fixImage == 1:
+    elif copy == 1 and sort == 0 and renameJpg == 1 and renameRaw == 0 and fixImage == 0:
+    elif copy == 1 and sort == 0 and renameJpg == 1 and renameRaw == 0 and fixImage == 1:
+    elif copy == 1 and sort == 0 and renameJpg == 1 and renameRaw == 1 and fixImage == 0:
+    elif copy == 1 and sort == 0 and renameJpg == 1 and renameRaw == 1 and fixImage == 1:
+    elif copy == 1 and sort == 1 and renameJpg == 0 and renameRaw == 0 and fixImage == 0:
+    elif copy == 1 and sort == 1 and renameJpg == 0 and renameRaw == 0 and fixImage == 1:
+    elif copy == 1 and sort == 1 and renameJpg == 0 and renameRaw == 1 and fixImage == 0:
+    elif copy == 1 and sort == 1 and renameJpg == 0 and renameRaw == 1 and fixImage == 1:
+    elif copy == 1 and sort == 1 and renameJpg == 1 and renameRaw == 0 and fixImage == 0:
+    elif copy == 1 and sort == 1 and renameJpg == 1 and renameRaw == 0 and fixImage == 1:
+    elif copy == 1 and sort == 1 and renameJpg == 1 and renameRaw == 1 and fixImage == 0:
+    elif copy == 1 and sort == 1 and renameJpg == 1 and renameRaw == 1 and fixImage == 1:
 
-print("The End")
+        CopyFilesFromSDCart.copyFiles(sourceDirectory, newDirectory)
+        SortFilesToDirectory.sortFilesToDirectory(newDirectory)
+        RenameImages.renameJpgImages(jpgDirectory)
+        RenameImages.renameNefImages(nefDirectory)
+        ImageProcessing.fixImage(jpgDirectory)
 
+    return 1
