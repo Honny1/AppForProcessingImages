@@ -14,7 +14,7 @@ def start(copy, sort, fixImage, renameRaw, renameJpg,  newDirectory, sourceDirec
         return "MissingNewDir"
     else:
         if copy == 0 and sort == 0 and renameJpg == 0 and renameRaw == 0 and fixImage == 0:
-         return "  NothingIsSelected  "
+         return "NothingIsSelected"
         elif copy == 0 and sort == 0 and renameJpg == 0 and renameRaw == 0 and fixImage == 1:
             ImageProcessing.fixImage(sourceDirectory)
             return "OK"
