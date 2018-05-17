@@ -1,8 +1,8 @@
 # User-specific configurations
 __pycache__
 .idea
-.build
-.dist
+build/
+dist/
 
 ### JetBrains ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
