@@ -17,4 +17,4 @@ def sortFilesToDirectory(src):
             elif FileProcessing.rightJpgType(FileProcessing.getFileType(src, file_name)):
                 shutil.copy(full_file_name, src+"/Jpg")
             else:
-                print(FileProcessing.getFileType(file_name))
+                print(FileProcessing.getFileType(src, file_name))

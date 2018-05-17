@@ -6,7 +6,7 @@ import Start
 
 def inicializaceOkna():
     okno.title("AppForProcessingImages")
-    okno.geometry("386x200")
+    okno.geometry("400x200")
 
     okno.update_idletasks()
     w = okno.winfo_screenwidth()
@@ -34,7 +34,7 @@ def obsahOkna():
     B1 = Button(okno, text="RUN", bg="green", command=run)
     B1.grid(row=3, column=2, sticky=N+S+E+W)
 
-    L3 = Label(okno, text="                                      ")
+    L3 = Label(okno, text="                                           ")
     L3.grid(row=4, column=2)
 
     B2 = Button(okno, text="PUSH ON WEB", bg="blue", command=pushOnWeb)
@@ -81,13 +81,26 @@ def zviditelneniOkna():
 
 
 def pushOnWeb():
-    print "Preparing..."
+    L3 = Label(okno, text="                                           ")
+    L3.grid(row=4, column=2)
+
+    L3 = Label(okno, text="Preparing...")
+    L3.grid(row=4, column=2)
 
 def justAFewImages():
-    print "Preparing..."
+    L3 = Label(okno, text="                                           ")
+    L3.grid(row=4, column=2)
+
+    L3 = Label(okno, text="Preparing...")
+    L3.grid(row=4, column=2)
 
 def openNewDir():
-    print "Preparing..."
+    L3 = Label(okno, text="                                           ")
+    L3.grid(row=4, column=2)
+
+    L3 = Label(okno, text="Preparing...")
+    L3.grid(row=4, column=2)
+
 
 
 def run():
@@ -124,7 +137,7 @@ def run():
             done = Start.start(copy, sort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
             print(done)
 
-            L3 = Label(okno, text="                       ")
+            L3 = Label(okno, text="                                           ")
             L3.grid(row=4, column=2)
 
             L3 = Label(okno, text=done)
@@ -134,17 +147,17 @@ def run():
 
             x = 1
         else:
-            L3 = Label(okno, text="                       ")
+            L3 = Label(okno, text="                                           ")
             L3.grid(row=4, column=2)
 
             L3 = Label(okno, text="I'm do nothing")
             L3.grid(row=4, column=2)
 
             okno.update()
-            print "I'm do nothing"
+
     else:
         print("run")
-        L3 = Label(okno, text="                       ")
+        L3 = Label(okno, text="                                           ")
         L3.grid(row=4, column=2)
 
         L3 = Label(okno, text="Processing...")
@@ -156,7 +169,7 @@ def run():
         done = Start.start(copy, sort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
         print(done)
 
-        L3 = Label(okno, text="                       ")
+        L3 = Label(okno, text="                                           ")
         L3.grid(row=4, column=2)
 
         L3 = Label(okno, text=done)
