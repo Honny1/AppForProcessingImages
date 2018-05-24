@@ -1,9 +1,12 @@
+import CopyFilesFromSDCart
 import FileProcessing
 import cv2
 import pexif
 
 
 # Autor: HoNnY
+import cleanData
+
 
 def flipImage(src,fileName, flipnum):
     img = cv2.imread(src+"/"+fileName)
@@ -21,7 +24,10 @@ def rotateImage(src, fileName, angle):
 
 
 def fixImage(src):
-    FileProcessing.getFileList(src)
+    src1=src
+    CopyFilesFromSDCart.copyFiles(src,"C:/core")
+    FileProcessing.getFileList("C:/core")
+    src="C:/core"
     file_list = open("list_file.txt", "r")
     for fileName in file_list:
         fileName = fileName[:-1]
@@ -47,9 +53,13 @@ def fixImage(src):
                 elif orientation is 4:
                     flipImage(src, fileName, 1)
                     rotateImage(src, fileName, 180)
+                else:
+                    rotateImage(src, fileName, 360)
                 print("Image Saved")
             except:
                 pass
     file_list.close()
+    CopyFilesFromSDCart.copyFiles(src, src1)
+    cleanData.delete()
 
 
