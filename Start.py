@@ -1,10 +1,16 @@
-import CopyFilesFromSDCart
-import ImageProcessing
-import RenameImages
-import SortFilesToDirectory
-import os
+import time
+from threading import Thread
+
+import cleanData
+
 
 def start(copy, sort, fixImage, renameRaw, renameJpg,  newDirectory, sourceDirectory):
+
+    import CopyFilesFromSDCart
+    import ImageProcessing
+    import RenameImages
+    import SortFilesToDirectory
+    import os
 
     nefDirectory = newDirectory+"/Nef"
     jpgDirectory = newDirectory+"/Jpg"
@@ -150,10 +156,26 @@ def start(copy, sort, fixImage, renameRaw, renameJpg,  newDirectory, sourceDirec
             RenameImages.renameNefImages(renameRaw)
             return "OK"
         elif copy == 1 and sort == 1 and renameJpg == 1 and renameRaw == 1 and fixImage == 1:
+            import ProgressBar
+
+            t = Thread(target=ProgressBar.run)
+            t.start()
+
+
             CopyFilesFromSDCart.copyFiles(sourceDirectory, newDirectory)
+            print(1)
             SortFilesToDirectory.sortFilesToDirectory(newDirectory)
+            print(2)
             RenameImages.renameJpgImages(jpgDirectory)
+            print(3)
             RenameImages.renameNefImages(nefDirectory)
+            print(4)
             ImageProcessing.fixImage(jpgDirectory)
+            progress = open("Progress1.txt", "w")
+            progress.write("END")
+            progress.close()
+
+            time.sleep(2)
+            cleanData.delete()
             return "OK"
         return "ERROR"

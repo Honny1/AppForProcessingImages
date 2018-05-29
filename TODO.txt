@@ -1,1 +1,8 @@
-udělat nejaký progres točící se kolečko nebo tak něco
+řešení progress baru ... udělej to globálně a čti data ze souboru :D
+CopyFilesFromSDCart progress OK
+SortFilesToDirectory  progress OK
+Rename Images progress OK
+Image procesing progres OK
+
+
+vymazat cestu k souborům v gui

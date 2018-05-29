@@ -1,11 +1,9 @@
-import time
 import threading
-from ttk import Progressbar
-
 from tkinter import *
 from tkinter import filedialog
 import tkMessageBox
 import Start
+
 
 
 def inicializaceOkna():
@@ -77,12 +75,8 @@ def obsahOkna():
     Ch5 = Checkbutton(okno, text="Rename JPG", variable=ch5)
     Ch5.grid(row=5, column=1, sticky=N+S+W)
 
-
-
-
 def zviditelneniOkna():
     okno.mainloop()
-
 
 def pushOnWeb():
     L3 = Label(okno, text="                                           ")
@@ -104,8 +98,6 @@ def openNewDir():
 
     L3 = Label(okno, text="Preparing...")
     L3.grid(row=4, column=2)
-
-
 
 def run():
     global x
@@ -136,12 +128,10 @@ def run():
             L3.grid(row=4, column=2)
 
             okno.update()
-            #t.start()
+
             print(copy, sort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
             done = Start.start(copy, sort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
             print(done)
-            #t.do_run = False
-            #t.join()
 
             L3 = Label(okno, text="                                           ")
             L3.grid(row=4, column=2)
@@ -170,12 +160,11 @@ def run():
         L3.grid(row=4, column=2)
 
         okno.update()
-        #t.start()
+
         print(copy, sort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
         done = Start.start(copy, sort, fixImage, renameRaw, renameJpg, newDir, sourceDir)
         print(done)
-        #t.do_run = False
-        #t.join()
+
 
         L3 = Label(okno, text="                                           ")
         L3.grid(row=4, column=2)
@@ -197,6 +186,7 @@ def getNewFilePatch():
     E2.insert(INSERT, newDir)
     okno.update()
 
+"""
 def progressBar():
     global okno2, progress
     okno2 = Toplevel()
@@ -216,48 +206,17 @@ def progressBar():
     L1 = Label(okno2, text="Loading...")
     L1.grid(row=1, column=0)
 
-def refreshProgressBar(val):
+def refreshProgressBar(val,val1):
     progress['value'] = val
+    L1 = Label(okno2, text="                                           ")
+    L1.grid(row=1, column=0)
+    L1 = Label(okno2, text=val1)
+    L1.grid(row=1, column=0)
     okno2.update_idletasks()
 
 def killProgressBar():
     okno2.destroy()
-
-def loadingAnimation(arg):
-    t = threading.currentThread()
-    while getattr(t, "do_run", True):
-        L3 = Label(okno, text="                                           ")
-        L3.grid(row=4, column=2)
-
-        L3 = Label(okno, text="Processing..")
-        L3.grid(row=4, column=2)
-        print(1)
-        okno.update()
-
-        L3 = Label(okno, text="                                           ")
-        L3.grid(row=4, column=2)
-
-        L3 = Label(okno, text="Processing.")
-        L3.grid(row=4, column=2)
-        print(2)
-        okno.update()
-
-        L3 = Label(okno, text="                                           ")
-        L3.grid(row=4, column=2)
-
-        L3 = Label(okno, text="Processing..")
-        L3.grid(row=4, column=2)
-        print(3)
-        okno.update()
-
-        L3 = Label(okno, text="                                           ")
-        L3.grid(row=4, column=2)
-
-        L3 = Label(okno, text="Processing...")
-        L3.grid(row=4, column=2)
-        print(4)
-        okno.update()
-    print("ENDanim")
+"""
 
 def againPressButton(newDir, sourceDir):
     global x,oldNewDir, oldSourceDir
@@ -302,7 +261,6 @@ global sourceDir, newDir
 x = 0
 oldNewDir = ""
 oldSourceDir = ""
-t = threading.Thread(target=loadingAnimation, args=("task",))
 
 inicializaceOkna()
 obsahOkna()

@@ -1,3 +1,5 @@
+from threading import Thread
+from gevent import os
 import CopyFilesFromSDCart
 import FileProcessing
 import cv2
@@ -5,7 +7,6 @@ import pexif
 
 
 # Autor: HoNnY
-import cleanData
 
 
 def flipImage(src,fileName, flipnum):
@@ -24,12 +25,32 @@ def rotateImage(src, fileName, angle):
 
 
 def fixImage(src):
-    src1=src
-    CopyFilesFromSDCart.copyFiles(src,"C:/core")
+
+    src1 = src
+    CopyFilesFromSDCart.copyFiles(src, "C:/core")
     FileProcessing.getFileList("C:/core")
-    src="C:/core"
+    src = "C:/core"
     file_list = open("list_file.txt", "r")
+
+    progress = open("Progress.txt", "w")
+    progress.write(str(0))
+    progress.close()
+    progress = open("Progress1.txt", "w")
+    progress.write("Fixing Images...")
+    progress.close()
+
+    z = 0
+    path, dirs, files = next(os.walk(src))
+    file_count = len(files)
+
     for fileName in file_list:
+        z += 1
+
+        procenta = (z * (100 / float(file_count)))
+        progress = open("Progress.txt", "w")
+        progress.write(str(procenta))
+        progress.close()
+
         fileName = fileName[:-1]
         if FileProcessing.rightJpgType(FileProcessing.getFileType(src,fileName)):
             img = pexif.JpegFile.fromFile(src+"/"+fileName)
@@ -60,6 +81,3 @@ def fixImage(src):
                 pass
     file_list.close()
     CopyFilesFromSDCart.copyFiles(src, src1)
-    cleanData.delete()
-
-
