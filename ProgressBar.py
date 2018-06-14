@@ -32,7 +32,7 @@ def refreshProgressBar(val,val1):
     okno2.update_idletasks()
 
 def killProgressBar():
-    sys.exit()
+    raise SystemExit
 
 def run():
     global okno2
@@ -49,7 +49,7 @@ def run():
         if(x2 != x3):
             refreshProgressBar(int(x2[0]),x1)
     refreshProgressBar(100, x1)
-    killProgressBar()
+    #killProgressBar()
 
 def getVal():
     f = open("Progress.txt", "r")

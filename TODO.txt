@@ -1,8 +1,2 @@
-řešení progress baru ... udělej to globálně a čti data ze souboru :D
-CopyFilesFromSDCart progress OK
-SortFilesToDirectory  progress OK
-Rename Images progress OK
-Image procesing progres OK
-
-
+fix znovu spuštění
 vymazat cestu k souborům v gui

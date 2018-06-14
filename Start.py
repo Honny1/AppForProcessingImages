@@ -2,6 +2,14 @@ import time
 from threading import Thread
 
 import cleanData
+runned=False
+
+
+def startProgress():
+    print(t.is_alive())
+    if(t.is_alive()):
+        t.join()
+    t.start()
 
 
 def start(copy, sort, fixImage, renameRaw, renameJpg,  newDirectory, sourceDirectory):
@@ -156,10 +164,11 @@ def start(copy, sort, fixImage, renameRaw, renameJpg,  newDirectory, sourceDirec
             RenameImages.renameNefImages(renameRaw)
             return "OK"
         elif copy == 1 and sort == 1 and renameJpg == 1 and renameRaw == 1 and fixImage == 1:
-            import ProgressBar
-
+            """import ProgressBar
             t = Thread(target=ProgressBar.run)
-            t.start()
+            t.start()"""
+
+            startProgress()
 
 
             CopyFilesFromSDCart.copyFiles(sourceDirectory, newDirectory)
@@ -176,6 +185,10 @@ def start(copy, sort, fixImage, renameRaw, renameJpg,  newDirectory, sourceDirec
             progress.close()
 
             time.sleep(2)
+
             cleanData.delete()
             return "OK"
         return "ERROR"
+
+import ProgressBar
+t = Thread(target=ProgressBar.run)
