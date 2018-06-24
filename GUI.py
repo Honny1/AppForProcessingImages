@@ -11,7 +11,7 @@ class AppGUI:
     def __init__(self, master):
         self.master = master
         master.title("HonyJeBuh")
-
+        self.master.configure(background='grey93')
         self.label = Label(master, text="Source directory:")
         self.label.grid(row=0, column=0, sticky=N + S + W)
 
@@ -36,7 +36,7 @@ class AppGUI:
         self.button3 = Button(master, text="SAVE", bg="yellow", command=self.getNewFilePatch)
         self.button3.grid(row=2, column=2, sticky=N + S + E + W)
 
-        self.button4 = Button(master, text="OPEN DIR", bg="blue", command=self.nic)
+        self.button4 = Button(master, text="PUSH ON WEB", bg="blue", command=self.pushOnWeb)
         self.button4.grid(row=4, column=2, sticky=N + S + E + W)
 
         self.label3 = Label(master,
@@ -44,13 +44,13 @@ class AppGUI:
                             bg="white")
         self.label3.grid(row=30, column=0, rowspan=3, columnspan=3, sticky=N + S + E + W)
 
-        self.check_button1 = Checkbutton(master, text="Copy", variable=ch2)
+        self.check_button1 = Checkbutton(master, text="Copy", variable=ch2, command=self.selectedCopy)
         self.check_button1.grid(row=4, column=0, sticky=N + S + W)
 
-        self.check_button2 = Checkbutton(master, text="Separate Jpg and Nef", variable=ch3)
+        self.check_button2 = Checkbutton(master, text="Separate Jpg and Nef", variable=ch3, command=self.selectedall)
         self.check_button2.grid(row=4, column=1, sticky=N + S + W)
 
-        self.check_button3 = Checkbutton(master, text="Fix Images", variable=ch4)
+        self.check_button3 = Checkbutton(master, text="Fix Images", variable=ch4, command=self.selectedall)
         self.check_button3.grid(row=3, column=1, sticky=N + S + W)
 
         cbs = [self.check_button1, self.check_button2, self.check_button3]
@@ -69,20 +69,35 @@ class AppGUI:
         self.label4 = Label(master, text="Ready")
         self.label4.grid(row=20, column=0, rowspan=3, columnspan=3, sticky=N + S + E + W)
 
+        self.selectedCopy()
         self.progress_bar["value"] = 0
 
-    def nic(self):
-        print("nic")
+    def selectedCopy(self):
+        self.selectedall()
+        if ch2.get() != 1:
+            self.entry1.configure(bg="grey", state='disabled')
+        else:
+            self.entry1.configure(bg="white",state='normal')
+
+    def selectedall(self):
+        if ch2.get() == 1 and ch3.get() == 1 and ch4.get() == 1:
+            self.check_button.select()
+        else:
+            self.check_button.deselect()
+
+
+    def pushOnWeb(self):
+        print("in progress...")
 
     def getFilePatch(self):
-        self.entry.insert(INSERT, "")
+        self.entry.delete(0, 'end')
         self.master.update()
         sourceDir = filedialog.askdirectory(parent=self.master, initialdir="home")
         self.entry.insert(INSERT, sourceDir)
         self.master.update()
 
     def getNewFilePatch(self):
-        self.entry1.insert(INSERT, "")
+        self.entry1.delete(0, 'end')
         self.master.update()
         newDir = filedialog.asksaveasfilename(parent=self.master, initialdir="home")
         self.entry1.insert(INSERT, newDir)
@@ -98,7 +113,7 @@ class AppGUI:
         images = []
         src_files = os.listdir(src)
         for file in src_files:
-            srcImages.append(src + "/" + file)
+            srcImages.append(os.path.join(src,file))
 
         for i in range(len(srcImages)):
             images.append(obrazek(srcImages[i], i))
@@ -186,10 +201,9 @@ class AppGUI:
                     else:
                         self.sortFilesToDirectory(newDir)
                 if fixImage == 1:
-                    if newDir == "":
+                    if copy == 0:
                         self.imagesFix(sourceDir)
                     else:
-
                         self.imagesFix(newDir)
                 self.label4 = Label(self.master, text="Done")
                 self.label4.grid(row=20, column=0, rowspan=3, columnspan=3, sticky=N + S + E + W)
@@ -213,7 +227,7 @@ class AppGUI:
                 else:
                     self.sortFilesToDirectory(newDir)
             if fixImage == 1:
-                if newDir == "":
+                if copy == 0:
                     self.imagesFix(sourceDir)
                 else:
                     self.imagesFix(newDir)
@@ -262,7 +276,6 @@ class AppGUI:
 
 
 root = Tk()
-ch1 = IntVar()
 ch2 = IntVar()
 ch3 = IntVar()
 ch4 = IntVar()
