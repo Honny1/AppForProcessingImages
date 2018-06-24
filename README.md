@@ -5,5 +5,4 @@ http://www.severka.org/index.php?cID=673
 2. SimpleGUI                            ☑
 3. SortImages                           ☑
 4. RenameImages                         ☑
-5. PUSHImages on server                 ☒
-6. CopyImagesToNewDir                   ☑
+5. CopyImagesToNewDir                   ☑

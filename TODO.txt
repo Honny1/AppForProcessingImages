@@ -1,2 +1,2 @@
-fix znovu spuštění
+﻿fix znovu spuštění cesty k souborům 
 vymazat cestu k souborům v gui
