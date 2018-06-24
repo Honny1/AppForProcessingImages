@@ -6,3 +6,4 @@ http://www.severka.org/index.php?cID=673
 3. SortImages                           ☑
 4. RenameImages                         ☑
 5. CopyImagesToNewDir                   ☑
+6. PUSHImages on server                 ☒
