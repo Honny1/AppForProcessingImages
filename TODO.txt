@@ -1,2 +1,1 @@
-﻿fix znovu spuštění cesty k souborům 
-vymazat cestu k souborům v gui
+﻿PUSH ON SERVER
