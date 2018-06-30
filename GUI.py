@@ -47,19 +47,13 @@ class AppGUI:
         self.check_button1 = Checkbutton(master, text="Copy", variable=ch2, command=self.selectedCopy)
         self.check_button1.grid(row=4, column=0, sticky=N + S + W)
 
-        self.check_button2 = Checkbutton(master, text="Separate Jpg and Nef", variable=ch3, command=self.selectedall)
+        self.check_button2 = Checkbutton(master, text="Separate Jpg and Nef", variable=ch3, command=self.selectedAll)
         self.check_button2.grid(row=4, column=1, sticky=N + S + W)
 
-        self.check_button3 = Checkbutton(master, text="Fix Images", variable=ch4, command=self.selectedall)
+        self.check_button3 = Checkbutton(master, text="Fix Images", variable=ch4, command=self.selectedAll)
         self.check_button3.grid(row=3, column=1, sticky=N + S + W)
 
-        cbs = [self.check_button1, self.check_button2, self.check_button3]
-
-        def checkall():
-            for cb in cbs:
-                cb.select()
-
-        self.check_button = Checkbutton(master, text="ALL", command=checkall)
+        self.check_button = Checkbutton(master, text="ALL", command=self.checkAll)
         self.check_button.grid(row=3, column=0, sticky=N + S + W)
 
         self.progress_bar = ttk.Progressbar(master, orient="horizontal", length=200, mode="determinate")
@@ -73,18 +67,25 @@ class AppGUI:
         self.progress_bar["value"] = 0
 
     def selectedCopy(self):
-        self.selectedall()
+        self.selectedAll()
         if ch2.get() != 1:
             self.entry1.configure(bg="grey", state='disabled')
         else:
             self.entry1.configure(bg="white",state='normal')
 
-    def selectedall(self):
+    def selectedAll(self):
         if ch2.get() == 1 and ch3.get() == 1 and ch4.get() == 1:
             self.check_button.select()
         else:
             self.check_button.deselect()
 
+    def checkAll(self):
+        cbs = [self.check_button1, self.check_button2, self.check_button3]
+
+        for cb in cbs:
+            cb.select()
+
+        self.selectedCopy()
 
     def pushOnWeb(self):
         print("in progress...")
@@ -158,7 +159,7 @@ class AppGUI:
         try:
             os.makedirs(src + "/Nef")
         except OSError:
-            if not os.path.isdir(src + "/Nef"):
+            if not os.path.isdir(os.path.join(src, "Nef")):
                 raise
         src_files = os.listdir(src)
         fileNum = 1
