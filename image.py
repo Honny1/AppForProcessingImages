@@ -37,7 +37,7 @@ class obrazek:
                 elif orientation is 8:
                     self.rotateImage(360)
                 elif orientation is 3:
-                    self.rotateImage(180)
+                    self.rotateImage(360)
                 elif orientation is 2:
                     self.flipImage(1)
                 elif orientation is 5:
