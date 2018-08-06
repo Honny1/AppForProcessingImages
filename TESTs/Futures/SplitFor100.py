@@ -4,16 +4,19 @@ import shutil
 def split(src):
     Images = []
     x=0
+    xx=1
     src_files = os.listdir(src)
     for file in src_files:
         Images.append(os.path.join(src, file))
 
     for i in range(len(Images)):
-        if i == 99:
+        xx+=1
+        if xx == 99:
             x+=1
-            copyFile(Images[i],os.path.join(src, x))
+            copyFile(Images[i],os.path.join(src, str(x)))
+            xx=0
         else:
-            copyFile(Images[i], os.path.join(src, x))
+            copyFile(Images[i], os.path.join(src, str(x)))
 
 def copyFile(src, dest):
     try:
