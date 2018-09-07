@@ -1,5 +1,6 @@
 import os
 import shutil
+from tqdm import tqdm
 
 def split(src):
     Images = []
@@ -9,7 +10,7 @@ def split(src):
     for file in src_files:
         Images.append(os.path.join(src, file))
 
-    for i in range(len(Images)):
+    for i in tqdm(range(len(Images))):
         xx+=1
         if xx == 99:
             x+=1

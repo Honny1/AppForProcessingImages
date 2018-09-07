@@ -1,9 +1,9 @@
 import rawpy
 import imageio
 import os
+from tqdm import tqdm
 def Nef2Jpg(src):
     Images = []
-    i=0
     src_files = os.listdir(src)
     for file in src_files:
         Images.append(os.path.join(src, file))
@@ -14,13 +14,12 @@ def Nef2Jpg(src):
         if not os.path.isdir(os.path.join(src, "Jpg")):
             raise
 
-    for image in Images:
-        i+=1
-        with rawpy.imread(image) as raw:
+    for i in tqdm(range(len(Images))):
+        with rawpy.imread(Images[i]) as raw:
             rgb = raw.postprocess()
         imageio.imsave(os.path.join(src, "Jpg", 'file_' + str(i) + '.jpg'), rgb)
 
-    print("hotovo")
+
 
 
 
