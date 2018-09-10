@@ -20,8 +20,5 @@ def Nef2Jpg(src):
         imageio.imsave(os.path.join(src, "Jpg", 'file_' + str(i) + '.jpg'), rgb)
 
 
-
-
-
 src = raw_input("SOURCE IMAGES:")
 Nef2Jpg(src)
