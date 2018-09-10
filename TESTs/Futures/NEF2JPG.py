@@ -2,6 +2,8 @@ import rawpy
 import imageio
 import os
 from tqdm import tqdm
+
+
 def Nef2Jpg(src):
     Images = []
     src_files = os.listdir(src)
@@ -15,12 +17,13 @@ def Nef2Jpg(src):
             raise
 
     for i in tqdm(range(len(Images))):
-        if(Images[i].endswith(".nef")):
+        if (Images[i].endswith(".nef")):
             with rawpy.imread(Images[i]) as raw:
                 rgb = raw.postprocess()
             imageio.imsave(os.path.join(src, "Jpg", 'file_' + str(i) + '.jpg'), rgb)
         else:
             print("This isn't .nef File!")
 
-src = raw_input("SOURCE IMAGES:")
+
+src = input("SOURCE IMAGES:")
 Nef2Jpg(src)
