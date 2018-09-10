@@ -1,5 +1,5 @@
 import cv2
-import pexif
+from PIL import Image, ExifTags
 import os
 
 
@@ -29,9 +29,13 @@ class obrazek:
         filename, file_extension = os.path.splitext(self.src)
         file_extension = file_extension.lower()
         if file_extension == ".jpg" or file_extension == ".jpeg":
-            img = pexif.JpegFile.fromFile(self.src)
+            image = Image.open(self.src)
+            for orientation in ExifTags.TAGS.keys():
+                if ExifTags.TAGS[orientation] == 'Orientation':
+                    break
+            exif = dict(image._getexif().items())
             try:
-                orientation = img.exif.primary.Orientation[0]
+                orientation = exif[orientation]
                 if orientation is 6:
                     self.rotateImage(360)
                 elif orientation is 8:

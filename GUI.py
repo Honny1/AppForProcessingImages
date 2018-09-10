@@ -1,11 +1,11 @@
-import tkMessageBox
-import ttk
-from tkinter import filedialog
-
 from image import *
-import shutil
-from tkinter import *
 
+import shutil
+
+from tkinter import *
+from tkinter import messagebox
+from tkinter import ttk
+from tkinter import filedialog
 
 class AppGUI:
     def __init__(self, master):
@@ -188,7 +188,7 @@ class AppGUI:
         sourceDir = src.get()
 
         if self.againPressButton(newDir, sourceDir, copy, sort, fixImage):
-            result = tkMessageBox.askquestion("Are You Sure?", "Again on the same?", icon='warning')
+            result = messagebox.askquestion("Are You Sure?", "Again on the same?", icon='warning')
             if result == 'yes':
                 print("run")
 
@@ -289,8 +289,3 @@ images = []
 
 my_gui = AppGUI(root)
 root.mainloop()
-
-""" 
-src = raw_input("SOURCE IMAGES:")
-C:\Users\GODv2\Desktop\100D3300 (1)
-"""
