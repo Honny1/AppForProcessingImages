@@ -7,3 +7,4 @@ http://www.severka.org/index.php?cID=673
 4. RenameImages                         ☑
 5. CopyImagesToNewDir                   ☑
 6. PUSHImages on server                 ☒
+7. NEF2JPG                              ☒/☑
