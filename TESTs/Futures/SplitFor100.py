@@ -29,5 +29,5 @@ def copyFile(src, dest):
     if os.path.isfile(src):
         shutil.copy(src, dest)
 
-src = raw_input("SOURCE IMAGES:")
+src = input("SOURCE IMAGES:")
 split(src)
