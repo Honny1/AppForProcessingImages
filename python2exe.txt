@@ -1,1 +1,4 @@
 C:\Users\GODv2\Anaconda2\python.exe -O -m PyInstaller --onefile GUI.py
+C:\ProgramData\Anaconda3\python.exe -O -m PyInstaller --onefile run.py
+auto-py-to-exe
+

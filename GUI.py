@@ -223,7 +223,7 @@ class AppGUI:
 
     def Nef2Jpg(self, src):
         self.progress_bar["value"] = 0
-        self.label4 = Label(self.master, text="Dividing...")
+        self.label4 = Label(self.master, text="Converting...")
         self.label4.grid(row=20, column=0, rowspan=3, columnspan=3, sticky=N + S + E + W)
         self.master.update()
         Images = []
@@ -238,7 +238,7 @@ class AppGUI:
                 raise
         fileNum = 1
         for i in range(len(Images)):
-            if (Images[i].endswith(".nef")):
+            if (Images[i].endswith(".NEF")):
                 fileNum += 1
                 procenta = (fileNum * (100 / float(len(Images))))
                 self.progress_bar["value"] = procenta
@@ -247,6 +247,11 @@ class AppGUI:
                     rgb = raw.postprocess()
                 imageio.imsave(os.path.join(src, "Jpg", 'file_' + str(i) + '.jpg'), rgb)
             else:
+                fileNum += 1
+                procenta = (fileNum * (100 / float(len(Images))))
+                self.progress_bar["value"] = procenta
+                self.master.update()
+
                 print("This isn't .nef File!")
 
     def run(self):
@@ -302,7 +307,7 @@ class AppGUI:
         else:
             print("run")
 
-            print(copy, sort, fixImage, newDir, sourceDir)
+            print(copy, sort, fixImage, newDir, sourceDir, nefToJpg, split)
 
             if copy == 1:
                 self.copyFiles(sourceDir, newDir)
@@ -311,6 +316,11 @@ class AppGUI:
                     self.sortFilesToDirectory(sourceDir)
                 else:
                     self.sortFilesToDirectory(newDir)
+            if nefToJpg == 1:
+                if copy == 0:
+                    self.Nef2Jpg(sourceDir)
+                else:
+                    self.Nef2Jpg(newDir)
             if fixImage == 1:
                 if copy == 0:
                     self.imagesFix(sourceDir)

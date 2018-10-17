@@ -17,7 +17,7 @@ def Nef2Jpg(src):
             raise
 
     for i in tqdm(range(len(Images))):
-        if (Images[i].endswith(".nef")):
+        if (Images[i].endswith(".NEF")):
             with rawpy.imread(Images[i]) as raw:
                 rgb = raw.postprocess()
             imageio.imsave(os.path.join(src, "Jpg", 'file_' + str(i) + '.jpg'), rgb)
